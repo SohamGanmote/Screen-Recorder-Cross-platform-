@@ -14,8 +14,8 @@ A simple and efficient screen recorder app built with [Electron](https://www.ele
 ## Installation
 
 ```bash
-git clone https://github.com/SohamGanmote/Screen-Recorder-Cross-platform-.git
-cd Screen-Recorder-Cross-platform-
+git clone https://github.com/SohamGanmote/Screen-Recorder-Cross-platform.git
+cd Screen-Recorder-Cross-platform
 npm install
 npm run electron:start
 ```
