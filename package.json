@@ -1,0 +1,32 @@
+{
+	"name": "screen-recorder",
+	"version": "1.0.0",
+	"main": "main.js",
+	"scripts": {
+		"electron:start": "electron .",
+		"electron:build": "electron-builder"
+	},
+	"build": {
+		"appId": "com.screen-recorder.id",
+		"productName": "Screen Recorder",
+		"files": [
+			"main.js",
+			"preload.js",
+			"renderer.js",
+			"index.html"
+		],
+		"win": {
+			"target": [
+				"msi"
+			]
+		}
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"electron": "^33.2.1",
+		"electron-builder": "^25.1.8"
+	}
+}
