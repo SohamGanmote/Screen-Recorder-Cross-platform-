@@ -13,6 +13,12 @@ A simple and efficient screen recorder app built with [Electron](https://www.ele
 - Simple and intuitive UI.
 - Cross-platform support (Windows, macOS, Linux).
 
+## Download
+
+| Platform      | Version         | Download Link                                                                                              |
+| ------------- | --------------- | ---------------------------------------------------------------------------------------------------------- |
+| Windows 10/11 | Latest (v1.0.0) | [Download for Windows](https://drive.google.com/file/d/1foHhskzu7DZN4T4-oIHKondXhzgc4w_W/view?usp=sharing) |
+
 ## Installation
 
 ```bash
