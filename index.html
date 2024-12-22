@@ -11,8 +11,8 @@
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background: #ffffff;
-      color: #333;
+      background: #121212;
+      color: #e0e0e0;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -24,24 +24,26 @@
       border-radius: 10px;
       text-align: center;
       width: 600px;
+      padding: 20px;
     }
 
     h1 {
       font-size: 24px;
       margin-bottom: 20px;
-      color: #4a90e2;
+      color: #6256CA;
     }
 
     video {
-      border: 2px solid #4a90e2;
+      border: 2px solid #6256CA;
       border-radius: 10px;
       width: 100%;
       height: auto;
       margin-bottom: 15px;
+      background: #000;
     }
 
     .button {
-      background: #4a90e2;
+      background: #6256CA;
       color: #ffffff;
       border: none;
       border-radius: 5px;
@@ -53,12 +55,24 @@
     }
 
     .button:hover {
-      background: #357abd;
+      background: #5246c2;
     }
 
     .button:disabled {
-      background: #b0c4de;
+      background: #2e2e2e;
+      color: #777;
       cursor: not-allowed;
+    }
+
+    .reordering:disabled {
+      background: #F72C5B;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: not-allowed;
+      margin: 10px 5px;
     }
 
     .dropdown {
@@ -72,7 +86,9 @@
     select {
       padding: 8px 12px;
       border-radius: 5px;
-      border: 1px solid #ccc;
+      border: 1px solid #6256CA;
+      background: #1e1e1e;
+      color: #e0e0e0;
       font-size: 14px;
       width: 300px;
     }
@@ -87,6 +103,7 @@
       color: #777;
     }
   </style>
+
 </head>
 
 <body>

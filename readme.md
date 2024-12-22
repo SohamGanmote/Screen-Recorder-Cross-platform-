@@ -1,6 +1,6 @@
 # Screen Recorder App
 
-![App Screenshot](./app.png)
+<!-- ![App Screenshot](./app.png) -->
 
 A simple and efficient screen recorder app built with [Electron](https://www.electronjs.org/). Record your screen with ease and export videos in high quality. This app is perfect for tutorials, demos, or capturing anything on your screen.
 
@@ -36,3 +36,13 @@ npm run electron:build
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## References
+
+- https://www.electronjs.org/docs/latest/tutorial/tutorial-preload
+- https://www.electronjs.org/docs/latest/api/desktop-capturer
+- https://stackoverflow.com/questions/26473576/is-it-possible-to-convert-a-mediastream-to-a-video-blob-with-html5
+- https://jsgist.org/?src=fe37a11d207f0f83a877e0c0252539c2
+- https://codepen.io/Michael-Flores-the-sans/pen/ZYzeQqb
+- https://gist.github.com/malept/3a8fcdc000fbd803d9a3d2b9f6944612
+- https://www.pexels.com/video/drone-view-of-big-waves-rushing-to-the-shore-3571264/-

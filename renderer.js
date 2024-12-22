@@ -51,11 +51,19 @@ startButton.addEventListener("click", () => {
 				blobs.length = 0;
 				startButton.disabled = false;
 				stopButton.disabled = true;
+
+				startButton.classList.add("button");
+				startButton.classList.remove("reordering");
+				startButton.innerHTML = `<i class="fas fa-play icon"></i> Start Recording`;
 			};
 
 			mediaRecorder.start();
 			startButton.disabled = true;
 			stopButton.disabled = false;
+
+			startButton.classList.add("reordering");
+			startButton.classList.remove("button");
+			startButton.innerHTML = `<i class="fas fa-circle icon"></i> Recording...`;
 		})
 		.catch((e) => console.log(e));
 });
