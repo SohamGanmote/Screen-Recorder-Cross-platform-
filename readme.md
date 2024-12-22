@@ -2,6 +2,8 @@
 
 <!-- ![App Screenshot](./app.png) -->
 
+https://github.com/user-attachments/assets/b70c1783-87ac-41da-81e7-062419b49015
+
 A simple and efficient screen recorder app built with [Electron](https://www.electronjs.org/). Record your screen with ease and export videos in high quality. This app is perfect for tutorials, demos, or capturing anything on your screen.
 
 ## Features
