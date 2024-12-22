@@ -19,12 +19,51 @@
 			"target": [
 				"msi"
 			]
-		}
+		},
+		"linux": {
+			"target": [
+				"AppImage",
+				"deb"
+			],
+			"category": "Utility"
+		},
+		"mac": {
+			"target": [
+				"dmg",
+				"zip"
+			],
+			"category": "public.app-category.utilities"
+		},
+		"publish": [
+			{
+				"provider": "github",
+				"owner": "SohamGanmote",
+				"repo": "Screen-Recorder-Cross-platform"
+			}
+		]
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": "",
+	"keywords": [
+		"screen",
+		"recorder",
+		"utility",
+		"cross-platform",
+		"electron"
+	],
+	"author": {
+		"name": "Soham Ganmote",
+		"email": "soham.ganmote@example.com",
+		"url": "https://github.com/SohamGanmote"
+	},
+	"license": "MIT",
+	"description": "A cross-platform screen recording application built with Electron.",
+	"homepage": "https://github.com/SohamGanmote/Screen-Recorder-Cross-platform",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SohamGanmote/Screen-Recorder-Cross-platform.git"
+	},
+	"bugs": {
+		"url": "https://github.com/SohamGanmote/Screen-Recorder-Cross-platform/issues"
+	},
 	"devDependencies": {
 		"electron": "^33.2.1",
 		"electron-builder": "^25.1.8"
